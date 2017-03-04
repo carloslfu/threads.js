@@ -45,6 +45,7 @@ thread
   });
 ```
 
+If you are using arrow function sintax be sure of add brackets, e.g `(input, done) => { done() }` instead of `(input, done) => done()`.
 
 ## Installation
 
